@@ -7,9 +7,15 @@
 //
 
 #include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+#include <math.h>
+int main()
+{
+    int i,j,k;
+    scanf("%d",&i);
+    for(j=0;j<=i;j++)
+    {
+        k=pow(3,j);
+        printf("pow(3,%d) = %d\n",j,k);
+    }
     return 0;
 }
